@@ -1,0 +1,33 @@
+# KiCad: backups, autosaves, locks
+*-backups/
+*-bak
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+~*.lck
+*.lck
+fp-info-cache
+
+# KiCad: per-user window/view settings
+*.kicad_prl
+
+# KiCad: generated files
+*.net
+*.kicad_pcb.tmp
+*-rescue.lib
+*-rescue.kicad_sym
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# 3D / render scratch
+*.step.bak
+*.stl.bak
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/

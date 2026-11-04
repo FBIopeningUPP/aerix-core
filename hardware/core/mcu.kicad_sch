@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e2b523d1-1d4a-4821-87b7-4bdca8b97adf")
+	(uuid "2aab64dc-1a7c-4b87-8c1b-b287e6500e50")
 	(paper "A2")
 	(lib_symbols
 		(symbol "MCU_ST_STM32H7:STM32H743IIKx"
