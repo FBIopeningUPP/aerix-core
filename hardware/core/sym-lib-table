@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "aerix") (type "KiCad") (uri "G:/MorePcb/forge/aerix-core/lib/aerix.kicad_sym") (options "") (descr ""))
+)

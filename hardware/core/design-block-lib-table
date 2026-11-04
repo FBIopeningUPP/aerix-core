@@ -1,0 +1,4 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "aerix.3dshapes") (type "KiCad") (uri "G:/MorePcb/forge/aerix-core/lib/aerix.3dshapes") (options "") (descr ""))
+)
