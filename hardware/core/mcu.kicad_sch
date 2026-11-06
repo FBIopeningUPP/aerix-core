@@ -6654,6 +6654,16 @@
 		)
 		(uuid "fbe4a89c-cc38-45ac-b1f1-1e83cf84796b")
 	)
+	(wire
+		(pts
+			(xy 209.55 80.645) (xy 205.74 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1da6ec-d812-4548-90ac-718c6ee9b8ed")
+	)
 	(global_label "GPIO_PD7"
 		(shape input)
 		(at 280.67 212.725 0)
@@ -6822,7 +6832,7 @@
 			)
 		)
 	)
-	(global_label "CAN2_TXT"
+	(global_label "CAN2_TXD"
 		(shape input)
 		(at 280.67 123.825 0)
 		(fields_autoplaced yes)
@@ -7182,7 +7192,7 @@
 			)
 		)
 	)
-	(global_label "3V3_MAIN"
+	(global_label "3V3_ANALOG"
 		(shape input)
 		(at 283.21 43.815 0)
 		(fields_autoplaced yes)
@@ -9438,6 +9448,30 @@
 			)
 		)
 	)
+	(global_label "BOOT0"
+		(shape input)
+		(at 209.55 73.025 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fadb56f1-7efa-4178-a65e-970676840ad8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.7872 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0201")
 		(at 203.2 61.595 0)
@@ -10923,6 +10957,84 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 205.74 80.645 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5145f922-bf1c-458f-bde2-6c058bc5be25")
+		(property "Reference" "#PWR0911"
+			(at 205.74 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 84.455 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1861156c-7692-479e-8c32-7897b341ab9b")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "#PWR0911")
 					(unit 1)
 				)
 			)

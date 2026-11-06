@@ -3050,7 +3050,7 @@
 	)
 	(global_label "SPI1_MISO"
 		(shape input)
-		(at 62.23 33.655 180)
+		(at 62.23 31.115 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3060,7 +3060,7 @@
 		)
 		(uuid "29feb611-0d79-4a39-a0c5-2663c5078fae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.3872 33.655 0)
+			(at 49.3872 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,7 +3386,7 @@
 	)
 	(global_label "CS_IMU2"
 		(shape input)
-		(at 123.825 109.22 0)
+		(at 123.825 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3396,7 +3396,7 @@
 		)
 		(uuid "96e2a8a0-83f1-4a3d-a88d-3c44f78a497b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8535 109.22 0)
+			(at 134.8535 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,7 +3482,7 @@
 	)
 	(global_label "SPI2_MISO"
 		(shape input)
-		(at 61.595 101.6 180)
+		(at 61.595 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3492,7 +3492,7 @@
 		)
 		(uuid "b5b61952-21b2-4bb2-8860-46bf7f036f01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7522 101.6 0)
+			(at 48.7522 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 	)
 	(global_label "CS_IMU1"
 		(shape input)
-		(at 130.81 41.275 0)
+		(at 130.81 36.195 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3708,7 +3708,7 @@
 		)
 		(uuid "c928bca1-d8c6-46fb-9871-bf8bc1eed3eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.8385 41.275 0)
+			(at 141.8385 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,17 +3770,17 @@
 	)
 	(global_label "INT_IMU3_GYR"
 		(shape input)
-		(at 75.565 161.925 180)
+		(at 118.745 169.545 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d362ffbc-d673-4029-932c-636d2acc20b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.5169 161.925 0)
+			(at 131.545 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3788,7 +3788,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)

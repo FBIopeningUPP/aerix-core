@@ -3012,7 +3012,7 @@
 			)
 		)
 	)
-	(global_label "DAT1"
+	(global_label "SD_D1"
 		(shape input)
 		(at 103.505 185.42 180)
 		(fields_autoplaced yes)
@@ -3204,7 +3204,7 @@
 			)
 		)
 	)
-	(global_label "DAT0"
+	(global_label "SD_D0"
 		(shape input)
 		(at 103.505 182.88 180)
 		(fields_autoplaced yes)
@@ -3265,6 +3265,30 @@
 		(uuid "ede8d088-654e-4f4b-b27b-650356f5f8db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.965 20.7215 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BOOT0"
+		(shape input)
+		(at 69.215 116.205 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f35f70ee-c136-4b46-ba39-dd3fd9fd17a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.3926 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,6 +4363,88 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/6c92d7f1-4729-44d8-903f-ae852ccd66c1"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0201")
+		(at 69.215 120.015 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53062066-9df9-41a4-a14c-0814f002238e")
+		(property "Reference" "R6"
+			(at 71.12 118.7449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 121.2849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 69.215 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.215 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 69.215 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42895e35-1761-42ec-8097-293e8888f093")
+		)
+		(pin "1"
+			(uuid "ebb95f64-65c0-4591-b3e5-6cb9fe441cb4")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/6c92d7f1-4729-44d8-903f-ae852ccd66c1"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6041,6 +6147,84 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/6c92d7f1-4729-44d8-903f-ae852ccd66c1"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 69.215 123.825 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b376a8e0-4d29-4997-97e3-511fb70a7a79")
+		(property "Reference" "#PWR0912"
+			(at 69.215 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.215 127.635 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.215 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.215 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.215 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12e65c85-35a3-46a3-ba99-261b6a99bd3d")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/6c92d7f1-4729-44d8-903f-ae852ccd66c1"
+					(reference "#PWR0912")
 					(unit 1)
 				)
 			)
