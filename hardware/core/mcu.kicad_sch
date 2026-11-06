@@ -5547,6 +5547,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "aerix:ABM8W-16.0000MHZ-8-D1X-T3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ABM8W-16.0000MHZ-8-D1X-T3"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "aerix:CRYSTAL-SMD_4P-L3.2-W2.5-BL-1"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Abracon-LLC_ABM8W-16-0000MHZ-8-D1X-T3_Abracon-LLC-ABM8W-16-0000MHZ-8-D1X-T3_C193746.html"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ABRACON"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ABM8W-16.0000MHZ-8-D1X-T3"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C193746"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Crystals"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ABM8W-16.0000MHZ-8-D1X-T3_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.52 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.02) (xy -1.27 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78) (xy 0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 1.78) (xy 0.76 -1.78) (xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -1.78) (xy -0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.02) (xy 1.27 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.52 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "OSC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OSC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 255.905 42.545)
@@ -5928,6 +6226,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.195 67.945) (xy 425.45 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a80031-7b54-4158-b413-0cedb5187176")
+	)
+	(wire
+		(pts
 			(xy 66.04 59.055) (xy 78.105 59.055)
 		)
 		(stroke
@@ -6295,6 +6603,16 @@
 			(type default)
 		)
 		(uuid "f0126bde-9235-4293-ab44-6c01d86d8156")
+	)
+	(wire
+		(pts
+			(xy 448.945 62.865) (xy 440.69 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2643f98-e105-4547-88f9-a6a630a8003d")
 	)
 	(wire
 		(pts
@@ -6672,7 +6990,7 @@
 			)
 		)
 	)
-	(global_label "SPI_MISO"
+	(global_label "SPI1_MISO"
 		(shape input)
 		(at 280.67 80.645 0)
 		(fields_autoplaced yes)
@@ -6684,7 +7002,7 @@
 		)
 		(uuid "1fb7606c-fcf7-4c9f-a5fe-35bce2f4448d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.3033 80.645 0)
+			(at 293.5128 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6853,6 +7171,30 @@
 		(uuid "28e387f0-d9f3-4bf1-989d-84776a75338f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 293.5128 250.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3V3_MAIN"
+		(shape input)
+		(at 283.21 43.815 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "294da650-7f64-4316-900d-ce377f06034b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.1457 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,6 +7515,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "OSC_OUT"
+		(shape input)
+		(at 448.945 62.865 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b849192-6d8c-431c-be26-79128cf9da55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 448.945 74.2564 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7560,7 +7926,7 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI"
+	(global_label "SPI1_MOSI"
 		(shape input)
 		(at 280.67 83.185 0)
 		(fields_autoplaced yes)
@@ -7572,7 +7938,7 @@
 		)
 		(uuid "6b08c161-0806-48bc-a059-770282ec10e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.3033 83.185 0)
+			(at 293.5128 83.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,6 +8307,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "OSC_IN"
+		(shape input)
+		(at 422.275 67.945 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93a87d19-83e7-422f-a262-dde4edb580ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 422.275 77.6431 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9207,6 +9597,86 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0201")
+		(at 413.385 67.945 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2268cf2a-93d5-454e-a0a8-2ef825d927cb")
+		(property "Reference" "C48"
+			(at 413.385 75.565 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 413.385 73.025 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 409.575 68.9102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 413.385 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 413.385 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c099e2f1-67da-49ee-b74c-886775ee9015")
+		)
+		(pin "2"
+			(uuid "f8873b2a-d2c4-4da2-aea6-6a7654d7a2c7")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -10620,6 +11090,86 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0201")
+		(at 452.755 62.865 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57813463-ff3f-4a82-ab04-547b0a4f5a52")
+		(property "Reference" "C47"
+			(at 452.755 55.245 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 452.755 57.785 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 456.565 61.8998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.755 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 452.755 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1e7036d-bbf7-4dc6-9a55-6aca5cbe9048")
+		)
+		(pin "2"
+			(uuid "687efedb-9071-4bd3-969a-6805779aed8a")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0201")
 		(at 42.545 62.865 0)
 		(unit 1)
 		(body_style 1)
@@ -10773,6 +11323,84 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 425.45 62.865 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a588ad-c293-44da-90a0-dfa83aaab654")
+		(property "Reference" "#PWR053"
+			(at 419.1 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 421.64 62.865 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 425.45 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 416.56 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "750f3ccf-c11b-4073-9719-12605b5c4130")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11253,6 +11881,84 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 456.565 62.865 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b94b02c-c9c4-4ed4-9b29-a98806287522")
+		(property "Reference" "#PWR055"
+			(at 462.915 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 460.375 62.865 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 456.565 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 456.565 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 465.455 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e01ba98c-cec8-44f3-a4d5-c3112b675c52")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11899,6 +12605,125 @@
 		)
 	)
 	(symbol
+		(lib_id "aerix:ABM8W-16.0000MHZ-8-D1X-T3")
+		(at 433.07 65.405 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6aecbfe-b80e-4360-8741-ffcedb0695f5")
+		(property "Reference" "X1"
+			(at 433.07 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ABM8W-16.0000MHZ-8-D1X-T3"
+			(at 433.07 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "aerix:CRYSTAL-SMD_4P-L3.2-W2.5-BL-1"
+			(at 433.07 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Abracon-LLC_ABM8W-16-0000MHZ-8-D1X-T3_Abracon-LLC-ABM8W-16-0000MHZ-8-D1X-T3_C193746.html"
+			(at 433.07 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 433.07 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ABRACON"
+			(at 433.07 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ABM8W-16.0000MHZ-8-D1X-T3"
+			(at 433.07 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C193746"
+			(at 433.07 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b29eb4e8-4514-4a86-8f10-675e95341f0b")
+		)
+		(pin "1"
+			(uuid "f6133a6a-4ec0-4bed-8fde-d055d475b0b6")
+		)
+		(pin "2"
+			(uuid "e202c825-7dd8-4761-96c5-b5e99124ca4d")
+		)
+		(pin "4"
+			(uuid "ea4263d4-e6b1-4120-9cfd-79c178a9f7cc")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0201")
 		(at 66.04 40.64 0)
 		(unit 1)
@@ -11975,6 +12800,84 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 409.575 67.945 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca62eac4-8639-4c95-a3d7-70a2c2c2f78e")
+		(property "Reference" "#PWR056"
+			(at 403.225 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 405.765 67.945 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 409.575 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 409.575 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 400.685 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25123cd2-c452-4624-978f-75c5b11aabc1")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12221,6 +13124,84 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 440.69 67.945 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d36fe90e-d844-445e-bdfd-2d1b3c13f508")
+		(property "Reference" "#PWR054"
+			(at 447.04 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 444.5 67.945 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.69 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 449.58 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52c9a8b6-4f01-4768-9607-efbc67db27b8")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/f39ee522-94c1-4e54-a1de-b24967c16ade"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

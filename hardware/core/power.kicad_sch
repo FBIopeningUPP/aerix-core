@@ -1431,6 +1431,12 @@
 		(uuid "e1c8d973-80f4-46c6-a4c6-8ffc3d1a5a63")
 	)
 	(junction
+		(at 77.47 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e71b3aac-8a4b-4b6a-b178-d1b92ca559e6")
+	)
+	(junction
 		(at 227.33 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1824,6 +1830,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 59.69) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddac07ee-51f4-4dc6-9d02-06224402a4f6")
+	)
+	(wire
+		(pts
 			(xy 177.165 62.865) (xy 180.34 62.865)
 		)
 		(stroke
@@ -1930,7 +1946,7 @@
 			)
 		)
 	)
-	(global_label "5V_VIN"
+	(global_label "5V_IN"
 		(shape input)
 		(at 37.465 59.69 180)
 		(fields_autoplaced yes)
@@ -1942,7 +1958,7 @@
 		)
 		(uuid "6435914b-70c2-44d2-be4a-1889448581d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.1902 59.69 0)
+			(at 29.2788 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,6 +4031,84 @@
 			(project "core"
 				(path "/94f07567-b691-4191-83de-4b8aebafb491/7e270d7a-63ea-4f52-a904-2daec42bb281"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 77.47 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b90211-2b6e-43ae-88a1-4928437627e4")
+		(property "Reference" "#PWR065"
+			(at 83.82 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 62.23 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25aa6245-7e0c-451e-9bb5-a2528f90316e")
+		)
+		(instances
+			(project "core"
+				(path "/94f07567-b691-4191-83de-4b8aebafb491/7e270d7a-63ea-4f52-a904-2daec42bb281"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
